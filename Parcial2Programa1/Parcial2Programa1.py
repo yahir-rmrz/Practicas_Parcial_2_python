@@ -39,5 +39,5 @@ num = 0
 
 # Si este archivo se ejecuta directamente, iniciamos el programa
 # If this file is run directly, start the program
-if _name_ == '_main_':
+if __name__== '__main__':
     inicio(num)
